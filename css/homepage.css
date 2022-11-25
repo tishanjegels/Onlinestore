@@ -1,0 +1,61 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+
+
+
+/*NavBar*/
+
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content:space-between ;
+    padding: 20px;
+    z-index: 1;
+    transition-timing-function:ease-in;
+    transition: all 0.5s;
+}
+
+.nav_black{
+    background-color: rgba(0, 0, 0, 0.314);
+}
+
+#signOut{
+    color: #FFFFFF;
+    font: 16px;
+    background-color: #D5B91A;
+    border-radius: 10px;
+    margin: 24px 0px 12px;
+    padding: 10px;
+    width: 150px;
+    height: 48px;
+    text-align: center;
+}
+
+/*Banner*/
+
+.banner{
+    background-image: url('../images/Wearyourcrown.png') ;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: cover;
+    color: white;
+    object-fit: contain;
+    height: 500px;
+    
+}
+
+.banner_title{
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
+
+footer{
+    background-color: #00a189c6;
+    padding: 3rem;
+    font-size: small;
+}
