@@ -1,0 +1,48 @@
+body{
+    background-color: #cdb9a1;
+    padding-top: 12rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 5rem;
+}
+
+section{
+    text-align: center;
+}
+
+h3{
+    color: black;
+}
+
+h1{
+    color: black;
+}
+
+a:link{
+    color: #00a189c6;
+}
+
+a:visited{
+    color: #00a189c6;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display:flex;
+    justify-content:space-between ;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.626);
+}
+
+#button{
+    color: #FFFFFF;
+    font: 16px;
+    background-color: #00a189c6;
+    border-radius: 10px;
+    margin: 24px 0px 12px;
+    padding: 10px;
+    width: 170px;
+    height: 50px;
+    text-align: center;
+}
